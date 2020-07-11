@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="50C1EF68-1AD6-B0AA-51CD-E6A6B8090EFB" mainViewID="3011EFBF-E5EA-0C40-8E9D-5DD65D639CB9">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 06:52:21 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data_model</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>
