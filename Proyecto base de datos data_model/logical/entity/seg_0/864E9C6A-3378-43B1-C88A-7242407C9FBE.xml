@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="864E9C6A-3378-43B1-C88A-7242407C9FBE" name="Propietario_de_la_Vivienda">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 07:28:23 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data_model</ownerDesignName>
+<engineerTo>
+<item key="6DB8345E-1250-F942-9F63-625948B40B10" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Nombre" id="A6E3B3E4-2C80-2BD6-B33E-96CC9C0B24D9">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 07:28:59 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data_model</ownerDesignName>
+<engineerTo>
+<item key="6DB8345E-1250-F942-9F63-625948B40B10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUN" id="561A982C-C97E-6D8B-DDF6-FB6873A5F845">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 07:29:57 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data_model</ownerDesignName>
+<engineerTo>
+<item key="6DB8345E-1250-F942-9F63-625948B40B10" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Correo" id="9030002D-3EE0-B05F-88BA-363A2C6465BB">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 07:55:06 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data_model</ownerDesignName>
+<engineerTo>
+<item key="6DB8345E-1250-F942-9F63-625948B40B10" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Telefono" id="3BD49471-6E45-B809-BBD3-298DFB32E11C">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 07:55:38 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data_model</ownerDesignName>
+<engineerTo>
+<item key="6DB8345E-1250-F942-9F63-625948B40B10" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>

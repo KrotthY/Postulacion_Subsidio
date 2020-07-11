@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Proyecto base de datos data_model" id="55DD9959-E3E9-5344-C78A-E177742A2614" version="3.5">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 06:52:21 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>55DD9959-E3E9-5344-C78A-E177742A2614</designId>
+</OSDM_Design>
