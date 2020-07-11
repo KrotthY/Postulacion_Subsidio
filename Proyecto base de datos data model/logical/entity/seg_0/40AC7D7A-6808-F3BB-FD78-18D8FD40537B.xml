@@ -1,0 +1,140 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40AC7D7A-6808-F3BB-FD78-18D8FD40537B" name="Datos_Vivienda">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Rol SII" id="B39AF64A-FFB1-F5D1-228C-1997F8A0743A">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>CD6244C3-D9F7-D81A-8088-98168548A5BF</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="406E7A76-A3D1-4285-4DBB-8FD5C4A8B382">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>3302D260-340B-DE58-2D1D-FD4B5035BFF9</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Villa" id="2C174A60-FDA6-39E1-401A-79AAD88E39EB">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>4FAC68B4-6963-D4FA-A654-18ADF0F304C8</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Comuna" id="B87D2948-BD33-AC2A-D179-0B5DFDE1983D">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>89F1547A-D249-BED9-CD94-11EE357832E7</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Region" id="663695C1-3B11-A835-F056-BDC786F3AF68">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>D8A6426E-8257-DDFE-FC3C-6793A0B0EC9B</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N° _Edificacion" id="1C04B53A-FE69-E947-466C-B19D77481B91">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>A1E14113-85A0-7C66-5F56-6D0D5CA48F65</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Año_Construccion" id="BD342D52-7876-8237-368B-CF21A8710A41">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>A7A6530D-9B34-042B-828B-321319DDA21A</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="N°_Recepcion_Final" id="93C6750A-34C5-C2F4-6853-E94F6D6FED18">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>03FCDCBF-B7AB-2F61-8CED-803ABC8F946F</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9616F3F1-1DDB-F1BA-9DA0-12B055B0169D" name="Datos_Vivienda PK">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B39AF64A-FFB1-F5D1-228C-1997F8A0743A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

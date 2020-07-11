@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D7DE19FE-B9E3-9518-FC68-48D6A900CDC3" name="Datos_Resolucion">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:32 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="N°_Resolucion" id="A223EA73-2DEF-0CAD-46C0-3235B46F7D6B">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:32 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>F07EE63E-5F3A-5A91-69BE-138E3573790F</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_Resolucion" id="F2DF59C2-9E6B-FD19-2000-A3F7816E3A48">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:32 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>65173223-C877-7E77-5AE5-F44D7C811309</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Categoria" id="CDE2A514-E682-3314-EE10-5C4D0CDBB352">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:32 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>A668BA36-4DDC-C986-992C-56C45EEE2405</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1319A86D-B631-8228-657E-822B8973CF64" name="Antecedentes_Consultor PK">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:32 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A223EA73-2DEF-0CAD-46C0-3235B46F7D6B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
