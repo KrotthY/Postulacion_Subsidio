@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="05B93D7D-35B2-E391-B074-41DB2577ADF6" name="ESTADO_CIVIL">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>F3E06DF0-69F8-6CEE-A336-3A4CFCA15E41</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_E_CIVIL" id="7536E52D-DDD8-89EA-48F6-64C8328FF8AB">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>A419B21D-AC43-B99D-BEE1-6B5EBD18E9F7</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="AD90BA68-189A-F505-21B4-AE9A5499C5CD">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>739D0ED1-5043-9182-A5CF-F0FE2DB85B47</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="POSTULANTE_RUT_POSTULANTE" id="FF227F5A-C94A-937E-9C08-2034CADD2B80">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>FBCE083C-31EE-682B-9BCC-C24EF8B03074</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="849292BE-21C2-71BE-9799-B2368232227C" referredColumn="74848291-5A6E-56F3-65DE-184B635C60EA"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C4E88855-AABA-C8D4-174F-D43506764F38" name="ESTADO_CIVIL_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>EDD2B193-20B7-F2C0-3537-7617999FF1A5</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7536E52D-DDD8-89EA-48F6-64C8328FF8AB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6D04D04-4FF7-494B-2228-61582B5C460C" name="ESTADO_CIVIL__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AF55B369-B9B7-6B83-108C-35BDDE5D991E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="FF227F5A-C94A-937E-9C08-2034CADD2B80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D91C6A67-048E-2D18-886C-78682B60593E" name="ESTADO_CIVIL_POSTULANTE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>AF55B369-B9B7-6B83-108C-35BDDE5D991E</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF227F5A-C94A-937E-9C08-2034CADD2B80"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

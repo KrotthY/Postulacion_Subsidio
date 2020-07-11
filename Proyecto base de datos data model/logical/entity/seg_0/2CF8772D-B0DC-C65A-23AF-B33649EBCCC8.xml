@@ -78,76 +78,6 @@
 <dataTypeSize>50</dataTypeSize>
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="CASADO" id="991D2CBA-2B1A-9457-37F6-DF86DFC781CA">
-<createdBy>PC</createdBy>
-<createdTime>2020-07-11 05:50:44 UTC</createdTime>
-<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
-<engineerTo>
-<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="CONVIVIENTE_CIVIL" id="ADCB28B5-DAEC-1310-8E53-402FA7755C93">
-<createdBy>PC</createdBy>
-<createdTime>2020-07-11 05:55:49 UTC</createdTime>
-<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
-<engineerTo>
-<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="SOLTERO" id="E875FB9C-6B55-00D9-3B09-A1BF8D646637">
-<createdBy>PC</createdBy>
-<createdTime>2020-07-11 05:56:25 UTC</createdTime>
-<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
-<engineerTo>
-<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="DIVORCIADO" id="EB157C8C-C609-249B-20C4-12C2279ECE1E">
-<createdBy>PC</createdBy>
-<createdTime>2020-07-11 05:56:41 UTC</createdTime>
-<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
-<engineerTo>
-<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="VIUDO" id="4A235D39-AC26-F2E3-10D2-32511CE5FA75">
-<createdBy>PC</createdBy>
-<createdTime>2020-07-11 05:58:49 UTC</createdTime>
-<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
-<engineerTo>
-<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="CERT_PERMANENCIA" id="9DD0B6D0-2778-7AE2-D9E0-C08ADCD7CABD">
 <createdBy>PC</createdBy>
 <createdTime>2020-07-11 05:59:06 UTC</createdTime>
@@ -310,6 +240,20 @@
 <item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
 </engineerTo>
 <referedAttribute>A419B21D-AC43-B99D-BEE1-6B5EBD18E9F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_SUBSIDIO" id="33E50F71-3308-6CA3-5191-A5D185D45911">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 20:18:21 UTC</createdTime>
+<generatorID>7DB041DE-5C92-50AA-39DE-46BDBF583D4F</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>989BF9BB-D947-9CC9-4F14-081F39B280AD</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

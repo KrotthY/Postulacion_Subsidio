@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7D4F2E5-6055-2FCA-FFE2-747DD66B251D" name="REGIONES">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>3D89FA8A-352F-F7A1-B537-CC14B18EBF99</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REGION" id="294A28CD-125E-8409-FE92-1EE9F47B184B">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>240DC8DC-0158-565D-6163-65F66A303226</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION_REG" id="5EEC5831-E6E4-1F7C-D3F0-8B93429877C3">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>A138F4A4-30B9-DD37-EEB1-3D5915D25392</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RUT_POSTULANTE" id="8F8769E7-4DD7-77C1-8FF1-E998C0D9F68B">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>3C333963-F776-5D53-8CE7-08013C41E8C9</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PAIS_ID_PAIS" id="2F79C917-C635-F86C-8316-4B5C23C2E6EE">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>EF68A3D4-CBB0-54D4-94AC-E6669AAB0E2F</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="05B58BDF-645B-ABFC-5BBB-F8EBC2C65A18" referredColumn="203BC60C-C0D9-414E-660E-C1297B689586"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B85B22EF-8316-A900-A23E-427326749265" name="REGIONES_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>7BE1ED49-0B36-DC2F-308C-900ABF716D3E</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="294A28CD-125E-8409-FE92-1EE9F47B184B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B3C3A546-F2A3-958C-9BD8-B903E8CA9987" name="REGIONES__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>9C7ED7FA-C974-7FD1-D561-7F4DDC09AB7C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="2F79C917-C635-F86C-8316-4B5C23C2E6EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="226DB177-BC50-30A0-805B-8DDD92A13839" name="REGIONES_PAIS_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>9C7ED7FA-C974-7FD1-D561-7F4DDC09AB7C</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2F79C917-C635-F86C-8316-4B5C23C2E6EE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7746BEB1-B934-7D61-3164-A3A541380AA8" name="REGIONES_COMUNA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>6F0710A3-60DE-D36C-AB5B-3C68C55E4357</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

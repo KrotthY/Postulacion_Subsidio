@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E22E2DD9-EDEB-F79F-83C4-7B41ABD42387" containerWithKeyObject="CF0B7F66-5D6D-E7F1-1B10-FFC831BE927D" localFKIndex="D1126DA0-85F6-BB7C-0FAD-32E409BA9AE6" name="ACREDITACIONES_POSTULANTE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>5967E6FA-7DB1-19C6-D8E0-1C2E0E88A26C</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<referredTableLongName>POSTULANTE</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>561AA543-8004-D1AF-A757-3CE96DB34170</referredTableID>
+<keyObject>F4BE3450-85BE-C370-59FF-A1F861FF0630</keyObject>
+<referredKeyID>F4BE3450-85BE-C370-59FF-A1F861FF0630</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUT_POSTULANTE</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
