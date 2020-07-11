@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DE29E927-D66B-142F-C63F-94EF7818BE05" name="PAIS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3E06DF0-69F8-6CEE-A336-3A4CFCA15E41" name="ESTADO_CIVIL">
 <createdBy>PC</createdBy>
-<createdTime>2020-07-11 06:53:00 UTC</createdTime>
+<createdTime>2020-07-11 08:53:08 UTC</createdTime>
 <ownerDesignName>Proyecto base de datos data model</ownerDesignName>
 <engineerTo>
 <item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="ID_PAIS" id="60F450D5-2334-4D30-C92D-D1CBCFC40814">
+<Attribute name="ID_E_CIVIL" id="A419B21D-AC43-B99D-BEE1-6B5EBD18E9F7">
 <createdBy>PC</createdBy>
-<createdTime>2020-07-11 06:53:12 UTC</createdTime>
+<createdTime>2020-07-11 08:53:28 UTC</createdTime>
 <ownerDesignName>Proyecto base de datos data model</ownerDesignName>
 <engineerTo>
 <item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
@@ -27,24 +27,23 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DESCRIPCION_PAIS" id="EEB79435-FA7D-67C7-7D5C-BD9951BE3C89">
+<Attribute name="DESCRIPCION" id="739D0ED1-5043-9182-A5CF-F0FE2DB85B47">
 <createdBy>PC</createdBy>
-<createdTime>2020-07-11 06:53:27 UTC</createdTime>
+<createdTime>2020-07-11 08:53:58 UTC</createdTime>
 <ownerDesignName>Proyecto base de datos data model</ownerDesignName>
 <engineerTo>
 <item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>25</dataTypeSize>
-<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="RUT_POSTULANTE" id="9766D784-D185-B44C-4C86-8EFDDCBB58C1">
+<Attribute name="RUT_POSTULANTE" id="FBCE083C-31EE-682B-9BCC-C24EF8B03074">
 <createdBy>PC</createdBy>
-<createdTime>2020-07-11 06:58:03 UTC</createdTime>
-<generatorID>9C7ED7FA-C974-7FD1-D561-7F4DDC09AB7C</generatorID>
+<createdTime>2020-07-11 08:55:17 UTC</createdTime>
+<generatorID>AF55B369-B9B7-6B83-108C-35BDDE5D991E</generatorID>
 <ownerDesignName>Proyecto base de datos data model</ownerDesignName>
 <engineerTo>
 <item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
@@ -57,16 +56,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="BFBA664D-AC3D-0C71-1529-A126DD831B3A" name="PAIS PK">
+<identifier id="EDD2B193-20B7-F2C0-3537-7617999FF1A5" name="ESTADO_CIVIL PK">
 <createdBy>PC</createdBy>
-<createdTime>2020-07-11 06:53:24 UTC</createdTime>
+<createdTime>2020-07-11 08:53:55 UTC</createdTime>
 <ownerDesignName>Proyecto base de datos data model</ownerDesignName>
 <engineerTo>
 <item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>60F450D5-2334-4D30-C92D-D1CBCFC40814</attributeRef>
+<attributeRef>A419B21D-AC43-B99D-BEE1-6B5EBD18E9F7</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

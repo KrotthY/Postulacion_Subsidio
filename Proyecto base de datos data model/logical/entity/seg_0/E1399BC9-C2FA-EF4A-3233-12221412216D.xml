@@ -68,6 +68,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_REGION" id="16456120-6928-2A2E-4567-31057E16DE75">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 08:48:03 UTC</createdTime>
+<generatorID>6F0710A3-60DE-D36C-AB5B-3C68C55E4357</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>240DC8DC-0158-565D-6163-65F66A303226</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="9A68E56D-DA33-1C13-2213-91DAFD98C95A" name="COMUNA PK">

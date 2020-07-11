@@ -146,6 +146,20 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="RUT_POSTULANTE" id="C40902BE-343E-BDFA-E077-3ABDD2C783C7">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 08:50:28 UTC</createdTime>
+<generatorID>1C64F997-212E-4E32-59C9-2F0EA0E886D5</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>7BEDE12E-663E-F602-D541-41A1A1D61E2B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="B9B3C893-F477-49F8-4EC7-234E82F6E0A9" name="AHORRO PK">

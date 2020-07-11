@@ -273,6 +273,48 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_ACREDITACIONES" id="0A156E34-3EC8-A79B-CBF4-DD24CD7084C9">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 08:49:06 UTC</createdTime>
+<generatorID>5967E6FA-7DB1-19C6-D8E0-1C2E0E88A26C</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>3416184E-FA88-2BAF-2090-660EF6FB3A78</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_AHORRO" id="DDDBA14B-0060-8A9C-C619-7868ADD5F84C">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 08:50:13 UTC</createdTime>
+<generatorID>1C64F997-212E-4E32-59C9-2F0EA0E886D5</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>4BE3FAEB-CAFB-8D3D-82CF-D2ED1C7EFDA6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_E_CIVIL" id="E514E5A4-4E2D-C475-6888-2BB2AF35EFD6">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 08:55:40 UTC</createdTime>
+<generatorID>AF55B369-B9B7-6B83-108C-35BDDE5D991E</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>A419B21D-AC43-B99D-BEE1-6B5EBD18E9F7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="ED14BC20-9489-4B9E-9E3E-40F3FCDFC732" name="POSTULANTE PK">

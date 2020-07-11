@@ -151,6 +151,20 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="ID_COMUNA" id="CC56F49B-BD95-818C-1296-B2E314CB9697">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 08:51:33 UTC</createdTime>
+<generatorID>4F49DCD6-69AF-FF37-CCEF-81633E82B584</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>AAEC8AAB-DEA7-27E2-1DAE-63EF5D06591D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="DC5E9B38-ADED-7973-D04E-3CBDC09F98DF" name="DOMICILIO_POSTULANTE PK">

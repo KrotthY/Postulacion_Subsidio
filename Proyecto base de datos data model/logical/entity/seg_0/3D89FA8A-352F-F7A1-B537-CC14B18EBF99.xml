@@ -54,15 +54,15 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_UBICACION" id="D83B0E54-29D3-1F82-B4A1-BC1FF03E3912">
+<Attribute name="ID_PAIS" id="EF68A3D4-CBB0-54D4-94AC-E6669AAB0E2F">
 <createdBy>PC</createdBy>
-<createdTime>2020-07-11 07:05:13 UTC</createdTime>
-<generatorID>54423DB3-9037-EE05-03A0-80D2DE9DB16A</generatorID>
+<createdTime>2020-07-11 08:47:35 UTC</createdTime>
+<generatorID>9C7ED7FA-C974-7FD1-D561-7F4DDC09AB7C</generatorID>
 <ownerDesignName>Proyecto base de datos data model</ownerDesignName>
 <engineerTo>
 <item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
 </engineerTo>
-<referedAttribute>B2179EE6-5FC6-60F1-CA3D-E3B30F7B92D4</referedAttribute>
+<referedAttribute>60F450D5-2334-4D30-C92D-D1CBCFC40814</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>

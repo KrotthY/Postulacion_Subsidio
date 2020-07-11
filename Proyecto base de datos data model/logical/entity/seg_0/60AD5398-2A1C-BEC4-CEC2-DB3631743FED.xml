@@ -179,6 +179,20 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="RUT_POSTULANTE" id="52A7338F-3422-5E0F-8167-EECB6CA967A6">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 08:48:38 UTC</createdTime>
+<generatorID>5967E6FA-7DB1-19C6-D8E0-1C2E0E88A26C</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>7BEDE12E-663E-F602-D541-41A1A1D61E2B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="94D54DD6-A602-A37F-0F80-378EAAA3E566" name="ACREDITACIONES PK">

@@ -80,20 +80,6 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ID_REGION" id="65A7C64B-F5E9-5793-72DC-CDE5DB6FF4A7">
-<createdBy>PC</createdBy>
-<createdTime>2020-07-11 07:05:34 UTC</createdTime>
-<generatorID>54423DB3-9037-EE05-03A0-80D2DE9DB16A</generatorID>
-<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
-<engineerTo>
-<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
-</engineerTo>
-<referedAttribute>240DC8DC-0158-565D-6163-65F66A303226</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="ID_COMUNA" id="D0C57EAE-AFD3-4493-3028-216D443FE114">
 <createdBy>PC</createdBy>
 <createdTime>2020-07-11 07:06:06 UTC</createdTime>
