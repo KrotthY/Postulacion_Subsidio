@@ -1,0 +1,89 @@
+﻿<UserControl x:Class="OnBreak_MDT_V._2.UserControlAgregarContratos"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:OnBreak_MDT_V._2" xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+             mc:Ignorable="d" 
+             
+             
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid Background="White" Margin="0,0,0,-98" ScrollViewer.VerticalScrollBarVisibility="Auto">
+        <!--Los datos en este user control todos llevan la terminologia Ct = Contrato
+              "name"Ct  esto indica que toda variable terminada Ct pertenece  contrato-->
+        <Label Content="Ubicacion y Preferencia" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.304,-0.768" FontFamily="Segoe UI Black"/>
+        <Label Content="Titulo al cual postula" HorizontalAlignment="Left" Margin="21,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.562,-0.08"/>
+        <Label Content="Region de Preferencia" HorizontalAlignment="Left" Margin="460,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.433,-1.359"/>
+        <Label Content="Comuna de Preferencia" HorizontalAlignment="Left" Margin="460,59,0,0" VerticalAlignment="Top"/>
+        <Label Content="Rut" HorizontalAlignment="Left" Margin="21,121,0,0" VerticalAlignment="Top"/>
+        <Label Content="Identificacion Postulantes_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="0,93,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.309,-4.368" FontFamily="Segoe UI Black"/>
+        <Label Content="Nombres" HorizontalAlignment="Left" Margin="213,121,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.266,-4.853"/>
+        <Label Content="Fecha Nacimiento" HorizontalAlignment="Left" Margin="514,120,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.734,-3.34"/>
+        <ComboBox x:Name="cboComun" HorizontalAlignment="Left" Margin="610,52,0,0" VerticalAlignment="Top" Width="135"/>
+        <ComboBox x:Name="cboRegion" HorizontalAlignment="Left" Margin="610,19,0,0" VerticalAlignment="Top" Width="135"/>
+        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="636,498,0,0" VerticalAlignment="Top" Width="143" Style="{DynamicResource MaterialDesignRaisedAccentButton}"/>
+        <Label Content="Segundo Apellido" HorizontalAlignment="Left" Margin="264,156,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nacionalidad" HorizontalAlignment="Left" Margin="568,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <DatePicker x:Name="dtpFechaInicio" HorizontalAlignment="Left" Margin="636,245,0,0" VerticalAlignment="Top" Width="135"/>
+        <DatePicker x:Name="dtpFechaNacimiento" HorizontalAlignment="Left" Margin="632,119,0,0" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txtAsistentes" HorizontalAlignment="Left" Height="23" Margin="52,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txtPersonalAdicional" HorizontalAlignment="Left" Height="23" Margin="284,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201" />
+        <CheckBox Content="Tramo 1, Viviendas de 1.800 U.F." HorizontalAlignment="Left" Margin="175,29,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox Content="Tramo 1, Viviendas de 1.800 U.F." HorizontalAlignment="Left" Margin="175,52,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox Content="Tramo 1, Viviendas de 1.800 U.F." HorizontalAlignment="Left" Margin="175,75,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <Label Content="Primer Apellido" HorizontalAlignment="Left" Margin="21,156,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAsistentes_Copy" HorizontalAlignment="Left" Height="23" Margin="372,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txtAsistentes_Copy1" HorizontalAlignment="Left" Height="23" Margin="111,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <Label Content="Estado Civil" HorizontalAlignment="Left" Margin="25,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <RadioButton Content="Casado" HorizontalAlignment="Left" Margin="99,191,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Conviviene  Civil" HorizontalAlignment="Left" Margin="179,191,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Soltero" HorizontalAlignment="Left" Margin="311,191,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Divorciado" HorizontalAlignment="Left" Margin="385,191,0,0" VerticalAlignment="Top"/>
+        <RadioButton Content="Soltero" HorizontalAlignment="Left" Margin="480,191,0,0" VerticalAlignment="Top"/>
+        <Label Content="Certificado de permanencia" HorizontalAlignment="Left" Margin="525,157,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="696,161,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox Content="No" HorizontalAlignment="Left" Margin="744,161,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="376,283,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox Content="No" HorizontalAlignment="Left" Margin="413,283,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="-0.289,-0.056"/>
+        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="66,321,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="1.226,0.056"/>
+        <CheckBox Content="No" HorizontalAlignment="Left" Margin="104,321,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="380,250,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="0.258,1.889"/>
+        <CheckBox Content="No" HorizontalAlignment="Left" Margin="416,250,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="117,250,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox Content="No" HorizontalAlignment="Left" Margin="153,250,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <DatePicker x:Name="dtpFechaInicio_Copy" HorizontalAlignment="Left" Margin="636,280,0,0" VerticalAlignment="Top" Width="135" RenderTransformOrigin="0.415,0.32"/>
+        <Label Content="Acredita indigena" HorizontalAlignment="Left" Margin="257,280,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <Label Content="Indigena o Originario" HorizontalAlignment="Left" Margin="14,283,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="122" Height="24"/>
+        <Label Content="Fecha Documento" HorizontalAlignment="Left" Margin="505,250,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <Label Content="Acredita Cargas Familiares" HorizontalAlignment="Left" Margin="228,246,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <Label Content="Cargas Familiares" HorizontalAlignment="Left" Margin="14,246,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <Label Content="Acreditaciones_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="4,218,-4,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" FontFamily="Segoe UI Black"/>
+        <Label Content="Fecha Documento" HorizontalAlignment="Left" Margin="505,283,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <Label Content="Titulo " HorizontalAlignment="Left" Margin="14,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="37" Height="24"/>
+        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="141,285,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="1.226,0.056"/>
+        <CheckBox Content="No" HorizontalAlignment="Left" Margin="179,286,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <Label Content="Titulo que posee" HorizontalAlignment="Left" Margin="147,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="96" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="255,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154"/>
+        <Label Content="Acredita Titulo" HorizontalAlignment="Left" Margin="426,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="516,321,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
+        <CheckBox Content="No" HorizontalAlignment="Left" Margin="552,321,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="-0.289,-0.056"/>
+        <DatePicker x:Name="dtpFechaInicio_Copy1" HorizontalAlignment="Left" Margin="704,320,-4,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.415,0.32"/>
+        <Label Content="Fecha Documento" HorizontalAlignment="Left" Margin="595,321,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="117"/>
+        <Label Content="Identificación del Cónyuge o conviviente civil____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="4,357,-4,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" FontFamily="Segoe UI Black" Width="800"/>
+        <TextBox x:Name="txtAsistentes_Copy2" HorizontalAlignment="Left" Height="23" Margin="659,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <Label Content="Rut" HorizontalAlignment="Left" Margin="15,386,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nombres" HorizontalAlignment="Left" Margin="207,386,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.266,-4.853"/>
+        <Label Content="Fecha Nacimiento" HorizontalAlignment="Left" Margin="508,385,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.734,-3.34"/>
+        <DatePicker x:Name="dtpFechaNacimiento_Copy" HorizontalAlignment="Left" Margin="626,384,0,0" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txtAsistentes_Copy3" HorizontalAlignment="Left" Height="23" Margin="46,386,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txtPersonalAdicional_Copy" HorizontalAlignment="Left" Height="23" Margin="278,386,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201" />
+        <Label Content="Segundo Apellido" HorizontalAlignment="Left" Margin="253,420,0,0" VerticalAlignment="Top"/>
+        <Label Content="Primer Apellido" HorizontalAlignment="Left" Margin="10,420,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtAsistentes_Copy4" HorizontalAlignment="Left" Height="23" Margin="361,421,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <TextBox x:Name="txtAsistentes_Copy5" HorizontalAlignment="Left" Height="23" Margin="100,420,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <Label Content="Nacionalidad" HorizontalAlignment="Left" Margin="523,420,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <TextBox x:Name="txtAsistentes_Copy6" HorizontalAlignment="Left" Height="23" Margin="614,420,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
+        <Button x:Name="btnGuardar_Copy" Content="Imprimir" HorizontalAlignment="Left" Margin="29,498,0,0" VerticalAlignment="Top" Width="143" Style="{DynamicResource MaterialDesignRaisedAccentButton}"/>
+
+    </Grid>
+</UserControl>
