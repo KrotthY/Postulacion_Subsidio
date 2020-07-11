@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTE_CONYUGE" directorySegmentName="seg_0" id="76749A96-BEDB-093D-AD03-CC7A65160D8F">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 07:02:15 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<sourcePk>ED14BC20-9489-4B9E-9E3E-40F3FCDFC732</sourcePk>
+<targetPk>5D92C29A-3035-FA65-28D2-8B60A045F066</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>2CF8772D-B0DC-C65A-23AF-B33649EBCCC8</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>0639A9E2-421C-D30C-BDE9-D4C0B24640A5</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

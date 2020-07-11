@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTE_CONTACTO" directorySegmentName="seg_0" id="4283DFDA-3BB2-D940-6A5C-7B686C4FCEA4">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 07:03:32 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<sourcePk>3ED3D714-1998-1B45-B7CE-FEDA23B4771B</sourcePk>
+<targetPk>3ED3D714-1998-1B45-B7CE-FEDA23B4771B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>EB8FA718-2BBE-C83D-589C-762493EDE5E3</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>2CF8772D-B0DC-C65A-23AF-B33649EBCCC8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
