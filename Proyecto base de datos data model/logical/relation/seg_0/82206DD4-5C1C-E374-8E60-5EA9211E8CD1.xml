@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="VIVIENDA_CARACTERISTICAS" directorySegmentName="seg_0" id="82206DD4-5C1C-E374-8E60-5EA9211E8CD1">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 20:10:07 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<sourcePk>9616F3F1-1DDB-F1BA-9DA0-12B055B0169D</sourcePk>
+<targetPk>B2F1074E-52EA-6D5B-6972-01B0784AFE6B</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>40AC7D7A-6808-F3BB-FD78-18D8FD40537B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>D792FC74-DBC4-66ED-AD8B-FE7371E1CC67</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

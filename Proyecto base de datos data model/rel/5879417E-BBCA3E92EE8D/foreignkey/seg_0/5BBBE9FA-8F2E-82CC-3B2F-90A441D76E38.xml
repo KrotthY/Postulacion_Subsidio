@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5BBBE9FA-8F2E-82CC-3B2F-90A441D76E38" containerWithKeyObject="561AA543-8004-D1AF-A757-3CE96DB34170" localFKIndex="635CFAFC-52A0-4DEA-1B5E-C7249650C7AB" name="POSTULANTE_ACREDITACIONES_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>5967E6FA-7DB1-19C6-D8E0-1C2E0E88A26C</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<referredTableLongName>ACREDITACIONES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CF0B7F66-5D6D-E7F1-1B10-FFC831BE927D</referredTableID>
+<keyObject>FE3A65D1-87C8-6E71-5384-A8B05B0958ED</keyObject>
+<referredKeyID>FE3A65D1-87C8-6E71-5384-A8B05B0958ED</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ACREDITACIONES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

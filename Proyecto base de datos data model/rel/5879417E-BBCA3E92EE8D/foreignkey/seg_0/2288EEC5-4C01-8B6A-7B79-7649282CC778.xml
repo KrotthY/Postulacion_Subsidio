@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2288EEC5-4C01-8B6A-7B79-7649282CC778" containerWithKeyObject="16FC3E1C-D532-8B4F-F503-E416CC2BAD62" localFKIndex="8B9D63BD-26D0-25B7-739B-C82360088A7B" name="DATOS_VIVIENDA_ESTADO_CONSERVACION_VIVIENDA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>0B47CC77-7F80-F7EF-F4D3-1FA6441CAD13</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<referredTableLongName>ESTADO_CONSERVACION_VIVIENDA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B9EFCB52-282E-324B-7C9F-2281501F9858</referredTableID>
+<keyObject>1B3A462B-F6BD-3133-BEBA-AAF4CA09ABA5</keyObject>
+<referredKeyID>1B3A462B-F6BD-3133-BEBA-AAF4CA09ABA5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESTADO_CONSERVACION</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

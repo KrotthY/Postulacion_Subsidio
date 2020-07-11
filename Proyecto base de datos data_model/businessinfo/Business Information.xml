@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="A6239550-ED4E-AFE4-4868-62AA4FD5B782">
-<createdBy>pamel</createdBy>
-<createdTime>2020-07-11 06:52:21 UTC</createdTime>
-<ownerDesignName>Proyecto base de datos data_model</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</BusinessInfoDesign>

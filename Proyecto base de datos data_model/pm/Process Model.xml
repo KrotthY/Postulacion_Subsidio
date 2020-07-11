@@ -1,7 +1,0 @@
-<?xml version = '1.0' encoding = 'UTF-8'?>
-<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="36C11719-627D-F923-E019-0E346CB012F1">
-<createdBy>pamel</createdBy>
-<createdTime>2020-07-11 06:52:21 UTC</createdTime>
-<ownerDesignName>Proyecto base de datos data_model</ownerDesignName>
-<shouldBeOpen>false</shouldBeOpen>
-</ProcessModel>

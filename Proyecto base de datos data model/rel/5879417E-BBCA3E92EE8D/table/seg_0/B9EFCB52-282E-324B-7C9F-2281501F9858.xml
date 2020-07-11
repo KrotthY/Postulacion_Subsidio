@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B9EFCB52-282E-324B-7C9F-2281501F9858" name="ESTADO_CONSERVACION_VIVIENDA">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>E5490CDB-209C-55BB-261C-C04FD3A35422</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESTADO_CONSERVACION" id="885986F3-9A90-94AD-3BBE-AE8F8AF5BD13">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>FD5F4020-6BF8-5FDE-3614-F8CD69E584C1</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DESCRIPCION" id="5A6ABBD9-3AD6-1A4A-0DA3-69B5CDF058BC">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>1BE162C7-9D67-E9CE-2311-D8E2276DE95C</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DATOS_VIVIENDA_ID_VIVIENDA" id="F2E184FC-E093-41FD-0148-AD2E64976E93">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>BC67981D-7443-AD4E-BACE-E99D9F16ACB3</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="30A18A9A-EAF9-AB8D-111A-2D644CB31B07" referredColumn="2EB06AB0-A64A-4D30-8176-E465B1F8D740"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B3A462B-F6BD-3133-BEBA-AAF4CA09ABA5" name="ESTADO_CONSERVACION_VIVIENDA_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>3013DF5A-B7E5-9826-D27B-F956A7F981D6</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="885986F3-9A90-94AD-3BBE-AE8F8AF5BD13"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2CA55BB7-A98D-E879-3913-3E9D026D5D7E" name="ESTADO_CONSERVACION_VIVIENDA__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0B47CC77-7F80-F7EF-F4D3-1FA6441CAD13</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="F2E184FC-E093-41FD-0148-AD2E64976E93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A5B8A4E4-BB63-298A-2407-523AEA31CD76" name="ESTADO_CONSERVACION_VIVIENDA_DATOS_VIVIENDA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>0B47CC77-7F80-F7EF-F4D3-1FA6441CAD13</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2E184FC-E093-41FD-0148-AD2E64976E93"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
