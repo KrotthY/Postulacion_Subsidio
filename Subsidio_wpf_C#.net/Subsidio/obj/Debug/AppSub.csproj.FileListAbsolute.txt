@@ -76,6 +76,7 @@ C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.n
 C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\obj\Debug\AppSub.csprojAssemblyReference.cache
 C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\obj\Debug\MainWindow.g.cs
 C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\obj\Debug\IngresoPostulante.g.cs
 C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\obj\Debug\InformarcionPostulante.g.cs
@@ -97,4 +98,3 @@ C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.n
 C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\obj\Debug\AppSub.csproj.CopyComplete
 C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\obj\Debug\OnBreak(MDT)V.2.exe
 C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\obj\Debug\OnBreak(MDT)V.2.pdb
-C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Subsidio\obj\Debug\AppSub.csprojAssemblyReference.cache

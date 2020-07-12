@@ -2,8 +2,10 @@
 using MaterialDesignThemes.Wpf;
 using System;
 using System.Collections.Generic;
+using System.Data.OracleClient;
 using System.Windows;
 using System.Windows.Controls;
+
 
 namespace OnBreak_MDT_V._2
 {
@@ -59,7 +61,16 @@ namespace OnBreak_MDT_V._2
 
         private void btnInicio_Click(object sender, RoutedEventArgs e)
         {
-            Close();
+
+            OracleConnection oracle = new OracleConnection("DATA SOURCE= XE; PASSWORD = 123; USER ID = SUBSIDIO;");
+
+            oracle.Open();
+            MessageBox.Show("Conectado");
+
+            oracle.Close();
+
+
+
         }
 
     }

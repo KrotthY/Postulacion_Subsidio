@@ -1,0 +1,2 @@
+C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\Users\Nicolas Zuñiga\Documents\GitHub\Postulacion_Subsidio\Subsidio_wpf_C#.net\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
