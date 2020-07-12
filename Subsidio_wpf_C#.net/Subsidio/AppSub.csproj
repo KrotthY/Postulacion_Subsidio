@@ -90,8 +90,8 @@
     <Compile Include="DatosPostulante.xaml.cs">
       <DependentUpon>DatosPostulante.xaml</DependentUpon>
     </Compile>
-    <Compile Include="InformeHabitabilidad.xaml.cs">
-      <DependentUpon>InformeHabitabilidad.xaml</DependentUpon>
+    <Compile Include="InformarcionPostulante.xaml.cs">
+      <DependentUpon>InformarcionPostulante.xaml</DependentUpon>
     </Compile>
     <Compile Include="Habitabilidad.xaml.cs">
       <DependentUpon>Habitabilidad.xaml</DependentUpon>
@@ -117,7 +117,7 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="InformeHabitabilidad.xaml">
+    <Page Include="InformarcionPostulante.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

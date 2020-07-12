@@ -11,12 +11,11 @@
     <Grid Background="White" Margin="0,0,0,-98" ScrollViewer.VerticalScrollBarVisibility="Auto">
         <!--Los datos en este user control todos llevan la terminologia Ct = Contrato
               "name"Ct  esto indica que toda variable terminada Ct pertenece  contrato-->
-        <Label Content="Ubicacion y Preferencia" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.304,-0.768" FontFamily="Segoe UI Black"/>
         <Label Content="Titulo al cual postula" HorizontalAlignment="Left" Margin="21,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.562,-0.08"/>
         <Label Content="Region de Preferencia" HorizontalAlignment="Left" Margin="460,30,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.433,-1.359"/>
         <Label Content="Comuna de Preferencia" HorizontalAlignment="Left" Margin="460,59,0,0" VerticalAlignment="Top"/>
         <Label Content="Rut" HorizontalAlignment="Left" Margin="21,121,0,0" VerticalAlignment="Top"/>
-        <Label Content="Identificacion Postulantes_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="0,93,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.309,-4.368" FontFamily="Segoe UI Black"/>
+        <Label Content="Identificacion Postulantes_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="0,93,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.309,-4.368" FontFamily="Segoe UI Black" FontSize="14"/>
         <Label Content="Nombres" HorizontalAlignment="Left" Margin="213,121,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.266,-4.853"/>
         <Label Content="Fecha Nacimiento" HorizontalAlignment="Left" Margin="514,120,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.734,-3.34"/>
         <ComboBox x:Name="cboComun" HorizontalAlignment="Left" Margin="610,52,0,0" VerticalAlignment="Top" Width="135"/>
@@ -57,7 +56,7 @@
         <Label Content="Fecha Documento" HorizontalAlignment="Left" Margin="505,250,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
         <Label Content="Acredita Cargas Familiares" HorizontalAlignment="Left" Margin="228,246,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
         <Label Content="Cargas Familiares" HorizontalAlignment="Left" Margin="14,246,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
-        <Label Content="Acreditaciones_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="4,218,-4,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" FontFamily="Segoe UI Black"/>
+        <Label Content="Acreditaciones_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="4,218,-4,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" FontFamily="Segoe UI Black" FontSize="14"/>
         <Label Content="Fecha Documento" HorizontalAlignment="Left" Margin="505,283,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
         <Label Content="Titulo " HorizontalAlignment="Left" Margin="14,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="37" Height="24"/>
         <CheckBox Content="Si" HorizontalAlignment="Left" Margin="141,285,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="1.226,0.056"/>
@@ -69,7 +68,7 @@
         <CheckBox Content="No" HorizontalAlignment="Left" Margin="552,321,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="-0.289,-0.056"/>
         <DatePicker x:Name="dtpFechaInicio_Copy1" HorizontalAlignment="Left" Margin="704,320,-4,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.415,0.32"/>
         <Label Content="Fecha Documento" HorizontalAlignment="Left" Margin="595,321,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="117"/>
-        <Label Content="Identificación del Cónyuge o conviviente civil____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="4,357,-4,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" FontFamily="Segoe UI Black" Width="800"/>
+        <Label Content="Identificación del Cónyuge o conviviente civil____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="4,357,-4,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" FontFamily="Segoe UI Black" Width="800" FontSize="14"/>
         <TextBox x:Name="txtAsistentes_Copy2" HorizontalAlignment="Left" Height="23" Margin="659,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
         <Label Content="Rut" HorizontalAlignment="Left" Margin="15,386,0,0" VerticalAlignment="Top"/>
         <Label Content="Nombres" HorizontalAlignment="Left" Margin="207,386,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.266,-4.853"/>
@@ -84,6 +83,7 @@
         <Label Content="Nacionalidad" HorizontalAlignment="Left" Margin="523,420,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
         <TextBox x:Name="txtAsistentes_Copy6" HorizontalAlignment="Left" Height="23" Margin="614,420,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
         <Button x:Name="btnGuardar_Copy" Content="Imprimir" HorizontalAlignment="Left" Margin="29,498,0,0" VerticalAlignment="Top" Width="143" Style="{DynamicResource MaterialDesignRaisedAccentButton}"/>
+        <Label Content="Ubicación y Preferencia_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="0,0,-6,0" VerticalAlignment="Top" RenderTransformOrigin="-0.309,-4.368" FontFamily="Segoe UI Black" FontSize="14"/>
 
     </Grid>
 </UserControl>
