@@ -87,8 +87,8 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="GlobalSuppressions.cs" />
-    <Compile Include="DatosPostulante.xaml.cs">
-      <DependentUpon>DatosPostulante.xaml</DependentUpon>
+    <Compile Include="IngresoPostulante.xaml.cs">
+      <DependentUpon>IngresoPostulante.xaml</DependentUpon>
     </Compile>
     <Compile Include="InformarcionPostulante.xaml.cs">
       <DependentUpon>InformarcionPostulante.xaml</DependentUpon>
@@ -113,7 +113,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="DatosPostulante.xaml">
+    <Page Include="IngresoPostulante.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
