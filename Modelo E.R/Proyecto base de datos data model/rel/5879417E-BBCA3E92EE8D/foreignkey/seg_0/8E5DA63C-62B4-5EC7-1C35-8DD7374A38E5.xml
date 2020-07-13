@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E5DA63C-62B4-5EC7-1C35-8DD7374A38E5" containerWithKeyObject="D9FCAFE4-C886-BCCE-CE47-E1448D39BDE3" localFKIndex="E507EC33-CE15-4976-B7FF-5A9CAEE8AF4A" name="SUBSIDIO_BENEFICIOARIO_SUBSIDIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>B96A91E2-AB56-384B-6CFB-09F72B848CE0</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<referredTableLongName>BENEFICIOARIO_SUBSIDIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>45294C95-8838-9BBD-6220-AF678305924C</referredTableID>
+<keyObject>2DECF9A3-1B21-AECF-4EC0-EF3EB8D9056F</keyObject>
+<referredKeyID>2DECF9A3-1B21-AECF-4EC0-EF3EB8D9056F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>RUT_BENEFICIARIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

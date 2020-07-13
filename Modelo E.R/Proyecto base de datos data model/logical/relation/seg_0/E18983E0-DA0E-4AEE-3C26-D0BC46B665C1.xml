@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UBICACION_COMUNA" directorySegmentName="seg_0" id="E18983E0-DA0E-4AEE-3C26-D0BC46B665C1">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 07:05:42 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<sourcePk>00CE9C9A-FEE6-D1EC-4366-445FF44E5567</sourcePk>
+<targetPk>9A68E56D-DA33-1C13-2213-91DAFD98C95A</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>80FD31CD-0F19-44B3-F82A-758AF266AC3D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E1399BC9-C2FA-EF4A-3233-12221412216D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

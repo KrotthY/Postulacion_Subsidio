@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTE_COMUNA" directorySegmentName="seg_0" id="4F49DCD6-69AF-FF37-CCEF-81633E82B584">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:59:39 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<sourcePk>ED14BC20-9489-4B9E-9E3E-40F3FCDFC732</sourcePk>
+<targetPk>9A68E56D-DA33-1C13-2213-91DAFD98C95A</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9A89B5B0-2C49-7EBD-FAE6-56D70A86665B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E1399BC9-C2FA-EF4A-3233-12221412216D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

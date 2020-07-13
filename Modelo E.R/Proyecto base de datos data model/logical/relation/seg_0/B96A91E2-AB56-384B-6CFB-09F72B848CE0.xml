@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="SUBSIDIO_BENEFICIARIO" directorySegmentName="seg_0" id="B96A91E2-AB56-384B-6CFB-09F72B848CE0">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:00:24 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<sourcePk>1F3495D5-5A5C-A6D1-6A55-A64115C13DEA</sourcePk>
+<targetPk>E2D66FC9-293A-4561-0EBB-5E895918C401</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8ABACB38-FF81-519A-5348-CC54967FF87B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>6CCB07C8-8CF6-BAC2-B5D7-1F30D20AAB1C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8ABACB38-FF81-519A-5348-CC54967FF87B" name="SUBSIDIO">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:08 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_SUBSIDIO" id="989BF9BB-D947-9CC9-4F14-081F39B280AD">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:08 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>24712A24-C4FD-31B2-ADA6-962EBBAD1898</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE_SUBSIDIO" id="67C09D26-F7BD-486F-8D3F-29AFCE56973B">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:08 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>5577C00C-4A8B-FBD8-1134-A207D90064FC</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_SUBSIDIO" id="879B1244-2BB2-425F-29EE-AC29AD557E09">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:08 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>AF005D1D-2320-3DDD-83A4-67F47565D2FB</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT_POSTULANTE" id="115E0CB8-BF1F-8976-7132-7616C6C1A65B">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 20:18:03 UTC</createdTime>
+<generatorID>7DB041DE-5C92-50AA-39DE-46BDBF583D4F</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>7BEDE12E-663E-F602-D541-41A1A1D61E2B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT" id="27F8FA36-D260-D501-BDFF-1D9DB77732D9">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 20:18:53 UTC</createdTime>
+<generatorID>1AAB9470-D468-3B4B-DC71-14F32A53B0F3</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>D6962E35-6ABC-7C4D-1676-300E475110B8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT_BENEFICIARIO" id="53C4E7B3-D379-59E8-36E2-45D2F2EEB318">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:00:43 UTC</createdTime>
+<generatorID>B96A91E2-AB56-384B-6CFB-09F72B848CE0</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>2FAD9E8E-B9E7-8F73-3D66-F5560E66643A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1F3495D5-5A5C-A6D1-6A55-A64115C13DEA" name="Subsidio PK">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:11:08 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>989BF9BB-D947-9CC9-4F14-081F39B280AD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

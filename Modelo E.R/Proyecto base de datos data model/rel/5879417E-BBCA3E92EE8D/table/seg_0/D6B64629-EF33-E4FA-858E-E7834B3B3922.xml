@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D6B64629-EF33-E4FA-858E-E7834B3B3922" name="VIVIENDA_ANOMALIAS_FACILES">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DATOS_VIVIENDA_ID_VIVIENDA" id="4A597684-E6EC-A918-25E2-AD83EEEE3BE3">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="095FA783-C4B2-72A8-2E48-151E9BBDFC53" referredColumn="2EB06AB0-A64A-4D30-8176-E465B1F8D740"/>
+</associations>
+</Column>
+<Column name="ANOMALIAS_FACILES_ID_ANOMALIAS_FACILES" id="749BEA7D-B76E-B437-65C8-DABB8C523341">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="58663218-29BD-A899-5696-389684EF99B2" referredColumn="9C8C7131-5079-8C60-D600-DA68F1A3CB61"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8B35DE1B-90A1-F305-D48C-9DEE8A799549" name="VIVIENDA_ANOMALIAS_FACILES_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A597684-E6EC-A918-25E2-AD83EEEE3BE3"/>
+<colUsage columnID="749BEA7D-B76E-B437-65C8-DABB8C523341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="38F94B36-C237-4293-DC38-06DEA7CC84CE" name="VIVIENDA_ANOMALIAS_FACILES_DATOS_VIVIENDA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>F00E9FB7-FCB8-B092-90B5-3EEE3CAC8B0D</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4A597684-E6EC-A918-25E2-AD83EEEE3BE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="18DBF393-E7A6-67E9-9826-F6ED545110B2" name="VIVIENDA_ANOMALIAS_FACILES_ANOMALIAS_FACILES_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>F00E9FB7-FCB8-B092-90B5-3EEE3CAC8B0D</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="749BEA7D-B76E-B437-65C8-DABB8C523341"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

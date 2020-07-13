@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="58663218-29BD-A899-5696-389684EF99B2" containerWithKeyObject="D6B64629-EF33-E4FA-858E-E7834B3B3922" localFKIndex="18DBF393-E7A6-67E9-9826-F6ED545110B2" name="VIVIENDA_ANOMALIAS_FACILES_ANOMALIAS_FACILES_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>F00E9FB7-FCB8-B092-90B5-3EEE3CAC8B0D</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<referredTableLongName>ANOMALIAS_FACILES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>AB1FE886-46A6-4BCA-1564-45A252C12D0B</referredTableID>
+<keyObject>4ED26AE6-ED08-88AE-75D8-E9A5E3C7234A</keyObject>
+<referredKeyID>4ED26AE6-ED08-88AE-75D8-E9A5E3C7234A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ANOMALIAS_FACILES</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

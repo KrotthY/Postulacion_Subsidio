@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8FF3C388-7398-B53A-FC33-7CCF354D1D37" containerWithKeyObject="561AA543-8004-D1AF-A757-3CE96DB34170" localFKIndex="FE727E83-985D-3BF2-2C1B-542C71E4F7DC" name="POSTULANTE_SUBSIDIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>7DB041DE-5C92-50AA-39DE-46BDBF583D4F</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<referredTableLongName>SUBSIDIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D9FCAFE4-C886-BCCE-CE47-E1448D39BDE3</referredTableID>
+<keyObject>EE20FC26-B300-5A92-0675-1E71A7E64FC4</keyObject>
+<referredKeyID>EE20FC26-B300-5A92-0675-1E71A7E64FC4</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_SUBSIDIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

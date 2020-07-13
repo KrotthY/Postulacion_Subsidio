@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8B52C5F8-409B-460E-96AF-E896778B2887" name="AHORRO">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 05:42:25 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_AHORRO" id="4BE3FAEB-CAFB-8D3D-82CF-D2ED1C7EFDA6">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:38:49 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT_TITULAR_CUENTA" id="07CFCC85-8BE4-3F37-73D4-0A76FAA50F05">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:39:25 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_CUENTA" id="0D002895-0CCC-E6A2-D363-A8B60CA3524A">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:40:37 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="POSTULANTE" id="07FC25F4-2E5C-C7AD-7306-2C6BA5CDFA00">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:41:18 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONYUGE" id="66C484F2-0BD4-764D-FFD6-F043D445F7F2">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:45:34 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CONVIVIENTE_CIVIL" id="8E422230-B4B3-0136-F1C4-0CE4CD226A55">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:45:48 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM_CUENTA" id="6787CB21-DB80-4D5F-A392-126FBE3A5F9C">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:46:10 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA_APERTURA" id="BF40DED3-A089-29A1-8DD5-02E21CF6B8C5">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:47:19 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMTO_AHORRADO" id="DAB6A7C2-F664-88AF-DF04-54E3DF363BB8">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:47:37 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ENTIDAD_FINANCIERA" id="73271155-7745-8534-B813-442904FEC1B1">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 07:09:25 UTC</createdTime>
+<generatorID>043CF312-6579-E16D-2D13-99E6CC819A87</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>2A294091-76BC-B46F-1D90-A92A4AC91BE2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RUT_POSTULANTE" id="C40902BE-343E-BDFA-E077-3ABDD2C783C7">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 08:50:28 UTC</createdTime>
+<generatorID>1C64F997-212E-4E32-59C9-2F0EA0E886D5</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<referedAttribute>7BEDE12E-663E-F602-D541-41A1A1D61E2B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B9B3C893-F477-49F8-4EC7-234E82F6E0A9" name="AHORRO PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:39:23 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>4BE3FAEB-CAFB-8D3D-82CF-D2ED1C7EFDA6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

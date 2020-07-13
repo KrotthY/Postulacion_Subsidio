@@ -1,0 +1,212 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="16FC3E1C-D532-8B4F-F503-E416CC2BAD62" name="DATOS_VIVIENDA">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>40AC7D7A-6808-F3BB-FD78-18D8FD40537B</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_VIVIENDA" id="2EB06AB0-A64A-4D30-8176-E465B1F8D740">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>B39AF64A-FFB1-F5D1-228C-1997F8A0743A</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="6AFC783E-DBEF-2B71-A741-3705B726DCEC">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>406E7A76-A3D1-4285-4DBB-8FD5C4A8B382</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="VILLA_POBLACION" id="2F4C5E52-BA62-9B0F-480A-6BFFBE0FEA49">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>2C174A60-FDA6-39E1-401A-79AAD88E39EB</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NUM_PERMISO_EDIFICACION" id="531E6350-0164-696A-1410-F8D99E9A2DC1">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>47E08D11-0EBA-D37C-6EFA-ED257EB5B3E8</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="AÑO_EDIFICACION" id="74A6D8CE-F172-8C4A-F823-56C6F749DB9F">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>689DCA3D-9004-0BFA-E7FE-9DE5B10EF60D</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RECEPTOR_FINAL" id="6EC47572-8322-EA04-7254-3D316A6C56F4">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>5B26400E-60D7-37B2-7C98-3F1BC1184CCB</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CARACTERISTICA_VIVIENDA_ID_CARACTERISTICAS_VIVIENDA" id="F8BF6F9A-378A-297F-BC75-E41C44842567">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>AFFF40E0-A504-0CBD-5FF7-153784BE03A1</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B296AF3-8AA7-4FB7-B05B-CF030FA8F59A" referredColumn="CCD9141F-C9AC-205E-801B-991D4050FCCC"/>
+</associations>
+</Column>
+<Column name="PROPIETARIO_VIVIENDA_RUT" id="D90D6AE0-A047-D787-182E-7E90EBA40018">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>F8A81E34-7C3E-4354-835B-871E282DB5BF</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="85132F6A-8128-A356-DDFC-9C70EDF95C79" referredColumn="F5767C75-0FBA-BA64-E2D9-CC80552EA1FC"/>
+</associations>
+</Column>
+<Column name="ESTADO_CONSERVACION_VIVIENDA_ID_ESTADO_CONSERVACION" id="9A0616BC-52BB-3786-1B71-614BCB34B686">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>6FD1EE74-5A5B-F3B1-5794-DB7FC6676A54</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2288EEC5-4C01-8B6A-7B79-7649282CC778" referredColumn="885986F3-9A90-94AD-3BBE-AE8F8AF5BD13"/>
+</associations>
+</Column>
+<Column name="COMUNA_ID_COMUNA" id="BE3DAE64-5C36-BD35-1765-17EC11FBC6A5">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>C270E956-0270-BB9F-3BDF-1000D8F1EA58</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AF8ADD79-F6F3-5F49-DBD7-1B18691E9862" referredColumn="0A1A8F7B-18F1-1FF8-60DC-BDBCB3535F08"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5839BD95-BF8C-CAB1-6182-387748731ED0" name="DATOS_VIVIENDA_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>9616F3F1-1DDB-F1BA-9DA0-12B055B0169D</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EB06AB0-A64A-4D30-8176-E465B1F8D740"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8848C2DA-5028-958E-B633-52469B8A2197" name="DATOS_VIVIENDA__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>0B47CC77-7F80-F7EF-F4D3-1FA6441CAD13</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="9A0616BC-52BB-3786-1B71-614BCB34B686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C51460FB-57EE-ADAB-E18A-4AB9ED5936BC" name="DATOS_VIVIENDA_COMUNA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>342849F4-F565-7849-20C9-1D19C83E22E2</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE3DAE64-5C36-BD35-1765-17EC11FBC6A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B9D63BD-26D0-25B7-739B-C82360088A7B" name="DATOS_VIVIENDA_ESTADO_CONSERVACION_VIVIENDA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>0B47CC77-7F80-F7EF-F4D3-1FA6441CAD13</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A0616BC-52BB-3786-1B71-614BCB34B686"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73682122-2909-DD71-64E0-C89E56BA3D88" name="DATOS_VIVIENDA_PROPIETARIO_VIVIENDA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>257227BC-C5FD-9A17-65CE-5C87014DBD9D</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D90D6AE0-A047-D787-182E-7E90EBA40018"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8FB2C279-3FD7-5950-AD7F-7B63A8FED9B3" name="DATOS_VIVIENDA_CARACTERISTICA_VIVIENDA_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>82206DD4-5C1C-E374-8E60-5EA9211E8CD1</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8BF6F9A-378A-297F-BC75-E41C44842567"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C8F28C6F-8268-8B8A-9E5F-63BCB7360176" containerWithKeyObject="561AA543-8004-D1AF-A757-3CE96DB34170" localFKIndex="9270EEF8-559A-2F43-78A5-881623E5E7A6" name="POSTULANTE_AHORRO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>1C64F997-212E-4E32-59C9-2F0EA0E886D5</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<referredTableLongName>AHORRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B77A92E2-88FE-4852-B2CE-1373324822C5</referredTableID>
+<keyObject>87C730A1-0787-56D3-5924-C8128691CBF9</keyObject>
+<referredKeyID>87C730A1-0787-56D3-5924-C8128691CBF9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_AHORRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

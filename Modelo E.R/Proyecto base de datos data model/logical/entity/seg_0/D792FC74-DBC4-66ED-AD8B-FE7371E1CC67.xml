@@ -1,0 +1,203 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D792FC74-DBC4-66ED-AD8B-FE7371E1CC67" name="CARACTERISTICA_VIVIENDA">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:10:39 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="USADA" id="A19F07CE-D503-9978-E933-7F6FF09CB2C8">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:10:39 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>632A01B0-B214-7E7F-E9F5-6CA3B3FD8C74</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DEPTO" id="2B8EA83E-24CE-E633-E249-43204BC586F9">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:10:39 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>68317703-3823-5E4F-659D-D7052CC855B6</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM_PISO" id="AA3B92E1-F275-AA0F-31E5-5124A9DE0FF5">
+<createdBy>pamel</createdBy>
+<createdTime>2020-07-11 10:10:39 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<importedID>98E47C10-9923-915B-0EFF-7C786B40A07F</importedID>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ECONOMICA" id="63F802E8-449C-B8D9-345B-E7C2773BC652">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 10:47:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ROL_SII" id="3F43C476-62B0-BE15-16D1-BB3D9B0DE626">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 19:36:42 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_CARACTERISTICAS_VIVIENDA" id="5CD7527B-A709-A092-F134-E3A1E167C45F">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 19:44:41 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AREA_TERRENO" id="9B333592-0FDB-7BC9-8929-E1A8EE1AFF9E">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 19:45:40 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="AREA_VIVIENDA" id="76660125-E88C-43CA-52F7-C187242D3470">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 19:45:58 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NUM_PISOS_VIVIENDA" id="03492DE5-39C8-4171-D6D5-CBDCF52BC827">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 19:48:04 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_TECHUMBRE" id="EA2C4E26-5C4B-A19E-D958-6F1179C5CD51">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 19:50:04 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TUPO_CONTRUCCION" id="49FC32DC-FF04-A449-C37B-3EFF9FEBECCB">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 19:50:33 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="TIPO_PISO_ENTRE_PISOS" id="C7AEE731-0BA4-4A42-8468-240E03D541A1">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 19:51:27 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ESTADO " id="B0C36D4E-0699-1073-B051-8F82FEC6E5C8">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 20:14:53 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B2F1074E-52EA-6D5B-6972-01B0784AFE6B" name="CARACTERISTICA_VIVIENDA PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 19:45:07 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CD7527B-A709-A092-F134-E3A1E167C45F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

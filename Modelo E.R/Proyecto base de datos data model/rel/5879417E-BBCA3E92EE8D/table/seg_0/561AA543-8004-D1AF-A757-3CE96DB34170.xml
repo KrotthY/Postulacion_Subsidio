@@ -1,0 +1,413 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="561AA543-8004-D1AF-A757-3CE96DB34170" name="POSTULANTE">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>2CF8772D-B0DC-C65A-23AF-B33649EBCCC8</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="RUT_POSTULANTE" id="74848291-5A6E-56F3-65DE-184B635C60EA">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>7BEDE12E-663E-F602-D541-41A1A1D61E2B</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_NACIMIENTO" id="D49F3C2A-4210-76B8-E689-AF085A514CD1">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>50ED8807-DEB4-6115-7EBB-A91CEBF44485</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="P_APELLIDO" id="907D0AA7-8A1F-614A-F6E8-7733B0A328A0">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>135144FC-DDE5-3C05-A998-8F2E79648DDA</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="S_APELLIDO" id="597CCBEA-C5D8-9061-64A4-0EE4B82E5E00">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>43DAA174-F1E7-2A58-F5C6-D822BE39BD40</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRES" id="C479170B-7E2A-471F-FB61-01FF18247F75">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>A1087316-A4CD-2665-DD9C-CB88DFF13CC8</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CERT_PERMANENCIA" id="6D83BED6-8869-FA0E-0A76-FA621FFD600A">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>9DD0B6D0-2778-7AE2-D9E0-C08ADCD7CABD</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="FECHA_CERTIFICADO_PERMANENCIA" id="5B1138C1-FC0D-4CD9-A90D-199F689D802E">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>2BBCC468-97F3-C592-734E-F51C06E874A1</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_REGION" id="70FF1582-4CA9-A106-0210-F6CB403EF806">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>2B0370F8-EBF9-34E1-8F18-4ED041CBFABB</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_PAIS" id="0D03E43B-7612-5F97-5383-977DD3F516F3">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>BC0454BE-4C7D-9758-0EF0-09A4CCB0BDA8</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_COMUNA" id="27E0881F-2467-82FE-DCB4-1DBAF207090C">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>6A6E7797-5D9A-6BDE-C8E0-369A9E9EC5C9</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ID_CONYUGE_CONVIVIENTE" id="409FDA4C-6301-7AD8-6E16-E4E1450D4848">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>FAA5A60A-2A3D-E3DE-B478-1B776B26CABD</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CONYUGE_CONVIVIENTE_RUT_CONYUGE_CONVIVIENTE" id="050196AD-7810-61D9-4A8D-3A5AFF76BD89">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>9FB11616-0756-51D4-3FF4-8C772041BEC9</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A849B6C2-DDA1-01B2-28D0-965D25F0DDB2" referredColumn="F5CC274F-8130-9469-01BB-80D52D3E092D"/>
+</associations>
+</Column>
+<Column name="CONTACTO_POSTULANTE_ID_CONTACTO_POSTULANTE" id="D6D91500-8931-D801-5852-FB655FF0E73F">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>A728F3D4-F1FF-8223-8E25-1644623A8D0B</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C507C58C-6B34-1E61-5E2E-6887FEA48F2A" referredColumn="3ED860BD-39C1-B78A-5C3C-5C8EBACF107B"/>
+</associations>
+</Column>
+<Column name="DOMICILIO_POSTULANTE_ID_DOMICILIO_POSTULANTE" id="E16E42EA-F206-09AC-C55D-558DFDB7D065">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>C337229E-8191-AF8B-AC3C-E9FA20091A58</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D144DAF3-6636-356E-7C51-2E144A48C139" referredColumn="2852711F-1A18-8F5C-D7FF-C629663B3C1A"/>
+</associations>
+</Column>
+<Column name="ACREDITACIONES_ID_ACREDITACIONES" id="6CF482DA-25F6-55BA-C097-3FE040113BCF">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>0A156E34-3EC8-A79B-CBF4-DD24CD7084C9</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BBBE9FA-8F2E-82CC-3B2F-90A441D76E38" referredColumn="01765F18-09CE-E1AC-B991-7F261C5B1C25"/>
+</associations>
+</Column>
+<Column name="AHORRO_ID_AHORRO" id="883A619B-05FD-B9DA-4291-6766784723AA">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>DDDBA14B-0060-8A9C-C619-7868ADD5F84C</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C8F28C6F-8268-8B8A-9E5F-63BCB7360176" referredColumn="A5C4EA9E-7FC4-9EA3-69DE-549D468241E2"/>
+</associations>
+</Column>
+<Column name="ESTADO_CIVIL_ID_E_CIVIL" id="AA302086-14DF-7D2D-D03D-499DE7BB5C04">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>E514E5A4-4E2D-C475-6888-2BB2AF35EFD6</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E0C56AB-5780-49DA-C572-796D5268336E" referredColumn="7536E52D-DDD8-89EA-48F6-64C8328FF8AB"/>
+</associations>
+</Column>
+<Column name="SUBSIDIO_ID_SUBSIDIO" id="CE780016-C590-B69C-95AC-1743705CE067">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>33E50F71-3308-6CA3-5191-A5D185D45911</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8FF3C388-7398-B53A-FC33-7CCF354D1D37" referredColumn="AB46FD11-A1BA-C53A-41DE-367B93856E2D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F4BE3450-85BE-C370-59FF-A1F861FF0630" name="POSTULANTE_PK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>ED14BC20-9489-4B9E-9E3E-40F3FCDFC732</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74848291-5A6E-56F3-65DE-184B635C60EA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D07BBCE-0484-1C8A-B63D-37D03A180C67" name="POSTULANTE__IDX">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>1C64F997-212E-4E32-59C9-2F0EA0E886D5</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="883A619B-05FD-B9DA-4291-6766784723AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B41ACFCC-CE18-8A8D-0290-26447F853FF5" name="POSTULANTE__IDXv1">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5967E6FA-7DB1-19C6-D8E0-1C2E0E88A26C</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="6CF482DA-25F6-55BA-C097-3FE040113BCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F59E2C51-D085-A4CF-134A-AD07BD9F5EC6" name="POSTULANTE__IDXv2">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>4283DFDA-3BB2-D940-6A5C-7B686C4FCEA4</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="D6D91500-8931-D801-5852-FB655FF0E73F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3C79A281-4189-676E-38CD-914622E2ED6A" name="POSTULANTE__IDXv3">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>76749A96-BEDB-093D-AD03-CC7A65160D8F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="050196AD-7810-61D9-4A8D-3A5AFF76BD89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5BB3782C-D701-E955-F3CB-B33524AB7474" name="POSTULANTE__IDXv4">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>50770B2D-AFA5-2790-EC7C-E9AE43478127</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="E16E42EA-F206-09AC-C55D-558DFDB7D065"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9D8EE9E-5C83-F4BC-3C89-D2FE92DDE3A9" name="POSTULANTE__IDXv5">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>AF55B369-B9B7-6B83-108C-35BDDE5D991E</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="AA302086-14DF-7D2D-D03D-499DE7BB5C04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECAC13FE-42CA-1AD8-24E0-B058BBCA3C7F" name="POSTULANTE__IDXv6">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>7DB041DE-5C92-50AA-39DE-46BDBF583D4F</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="CE780016-C590-B69C-95AC-1743705CE067"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9270EEF8-559A-2F43-78A5-881623E5E7A6" name="POSTULANTE_AHORRO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>1C64F997-212E-4E32-59C9-2F0EA0E886D5</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="883A619B-05FD-B9DA-4291-6766784723AA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="635CFAFC-52A0-4DEA-1B5E-C7249650C7AB" name="POSTULANTE_ACREDITACIONES_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>5967E6FA-7DB1-19C6-D8E0-1C2E0E88A26C</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CF482DA-25F6-55BA-C097-3FE040113BCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="29B1BCA0-CE69-CDEA-BB31-45EEB4D94EDE" name="POSTULANTE_CONTACTO_POSTULANTE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>4283DFDA-3BB2-D940-6A5C-7B686C4FCEA4</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6D91500-8931-D801-5852-FB655FF0E73F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="845E36EC-BBC0-9C4F-791B-1BCA3F30037B" name="POSTULANTE_CONYUGE_CONVIVIENTE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>76749A96-BEDB-093D-AD03-CC7A65160D8F</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="050196AD-7810-61D9-4A8D-3A5AFF76BD89"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E53339CC-4120-447F-096E-3B61F3B1FFC4" name="POSTULANTE_DOMICILIO_POSTULANTE_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>50770B2D-AFA5-2790-EC7C-E9AE43478127</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E16E42EA-F206-09AC-C55D-558DFDB7D065"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="86A7948E-B10D-96E8-3544-71646B867EDF" name="POSTULANTE_ESTADO_CIVIL_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>AF55B369-B9B7-6B83-108C-35BDDE5D991E</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA302086-14DF-7D2D-D03D-499DE7BB5C04"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FE727E83-985D-3BF2-2C1B-542C71E4F7DC" name="POSTULANTE_SUBSIDIO_FK">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 21:30:44 UTC</createdTime>
+<generatorID>7DB041DE-5C92-50AA-39DE-46BDBF583D4F</generatorID>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CE780016-C590-B69C-95AC-1743705CE067"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

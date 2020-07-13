@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="POSTULANTE_REGIONES" directorySegmentName="seg_0" id="6F0710A3-60DE-D36C-AB5B-3C68C55E4357">
+<createdBy>PC</createdBy>
+<createdTime>2020-07-11 06:58:19 UTC</createdTime>
+<ownerDesignName>Proyecto base de datos data model</ownerDesignName>
+<engineerTo>
+<item key="5879417E-8ADD-588C-28AA-BBCA3E92EE8D" value="true"/>
+</engineerTo>
+<sourcePk>ED14BC20-9489-4B9E-9E3E-40F3FCDFC732</sourcePk>
+<targetPk>7BE1ED49-0B36-DC2F-308C-900ABF716D3E</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E1399BC9-C2FA-EF4A-3233-12221412216D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>3D89FA8A-352F-F7A1-B537-CC14B18EBF99</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
