@@ -18,28 +18,13 @@
         <Label Content="Fecha Nacimiento" HorizontalAlignment="Left" Margin="514,120,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.734,-3.34"/>
         <ComboBox x:Name="cboComun" HorizontalAlignment="Left" Margin="610,52,0,0" VerticalAlignment="Top" Width="135"/>
         <ComboBox x:Name="cboRegion" HorizontalAlignment="Left" Margin="610,19,0,0" VerticalAlignment="Top" Width="135"/>
-        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="636,498,0,0" VerticalAlignment="Top" Width="143" Style="{DynamicResource MaterialDesignRaisedAccentButton}"/>
+        <Button x:Name="btnGuardar" Content="Guardar" HorizontalAlignment="Left" Margin="636,498,0,0" VerticalAlignment="Top" Width="143" Style="{DynamicResource MaterialDesignRaisedAccentButton}" Click="btnGuardar_Click" />
         <Label Content="Segundo Apellido" HorizontalAlignment="Left" Margin="264,156,0,0" VerticalAlignment="Top"/>
         <Label Content="Nacionalidad" HorizontalAlignment="Left" Margin="568,189,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
         <DatePicker x:Name="dtpFechaCargaFamiliar" HorizontalAlignment="Left" Margin="636,245,0,0" VerticalAlignment="Top" Width="135"/>
         <DatePicker x:Name="dtpFechaNacimiento" HorizontalAlignment="Left" Margin="632,119,0,0" VerticalAlignment="Top" Width="135"/>
         <TextBox x:Name="txtRut" HorizontalAlignment="Left" Height="23" Margin="52,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
         <TextBox x:Name="txtNombres" HorizontalAlignment="Left" Height="23" Margin="284,121,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="201" />
-        <CheckBox x:Name="chkBxTramo1" Content="Tramo 1, Viviendas de 1.800 U.F." HorizontalAlignment="Left" Margin="175,29,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked">
-            <CheckBox.BindingGroup>
-                <BindingGroup/>
-            </CheckBox.BindingGroup>
-        </CheckBox>
-        <CheckBox x:Name="chkBxTramo2" Content="Tramo 2, Viviendas de 2.400 U.F." HorizontalAlignment="Left" Margin="175,52,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked">
-            <CheckBox.BindingGroup>
-                <BindingGroup/>
-            </CheckBox.BindingGroup>
-        </CheckBox>
-        <CheckBox x:Name="chkBxTramo3" Content="Tramo 3, Viviendas de 2.800 U.F." HorizontalAlignment="Left" Margin="175,75,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked">
-            <CheckBox.BindingGroup>
-                <BindingGroup/>
-            </CheckBox.BindingGroup>
-        </CheckBox>
         <Label Content="Primer Apellido" HorizontalAlignment="Left" Margin="21,156,0,0" VerticalAlignment="Top"/>
         <TextBox x:Name="txtSegundoApellido" HorizontalAlignment="Left" Height="23" Margin="372,157,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
         <TextBox x:Name="txtPrimerApellido" HorizontalAlignment="Left" Height="23" Margin="111,156,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
@@ -50,32 +35,18 @@
         <RadioButton GroupName="GnEstadoCivil" x:Name="rbtDivorciado" Content="Divorciado" HorizontalAlignment="Left" Margin="385,191,0,0" VerticalAlignment="Top"/>
         <RadioButton GroupName="GnEstadoCivil" x:Name="rbtViudo" Content="Viudo" HorizontalAlignment="Left" Margin="480,191,0,0" VerticalAlignment="Top"/>
         <Label Content="Certificado de permanencia" HorizontalAlignment="Left" Margin="525,157,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
-        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="696,161,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
-        <CheckBox Content="No" HorizontalAlignment="Left" Margin="744,161,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
-        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="376,283,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
-        <CheckBox Content="No" HorizontalAlignment="Left" Margin="413,283,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="-0.289,-0.056"/>
-        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="66,321,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="1.226,0.056"/>
-        <CheckBox Content="No" HorizontalAlignment="Left" Margin="104,321,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
-        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="380,250,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="0.258,1.889"/>
-        <CheckBox Content="No" HorizontalAlignment="Left" Margin="416,250,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
-        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="117,250,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
-        <CheckBox Content="No" HorizontalAlignment="Left" Margin="153,250,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
         <DatePicker x:Name="dtpFechaAcreditaIndigena" HorizontalAlignment="Left" Margin="636,280,0,0" VerticalAlignment="Top" Width="135" RenderTransformOrigin="0.415,0.32"/>
         <Label Content="Acredita indigena" HorizontalAlignment="Left" Margin="257,280,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
         <Label Content="Indigena o Originario" HorizontalAlignment="Left" Margin="14,283,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="122" Height="24"/>
         <Label Content="Fecha Documento" HorizontalAlignment="Left" Margin="505,250,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
-        <Label Content="Acredita Cargas Familiares" HorizontalAlignment="Left" Margin="228,246,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
-        <Label Content="Cargas Familiares" HorizontalAlignment="Left" Margin="14,246,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <Label Content="Acredita Cargas Familiares" HorizontalAlignment="Left" Margin="227,250,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
+        <Label Content="Cargas Familiares" HorizontalAlignment="Left" Margin="14,250,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
         <Label Content="Acreditaciones_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="4,218,-4,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" FontFamily="Segoe UI Black" FontSize="14"/>
         <Label Content="Fecha Documento" HorizontalAlignment="Left" Margin="505,283,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
-        <Label Content="Titulo " HorizontalAlignment="Left" Margin="14,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="37" Height="24"/>
-        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="141,285,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="1.226,0.056"/>
-        <CheckBox Content="No" HorizontalAlignment="Left" Margin="179,286,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
-        <Label Content="Titulo que posee" HorizontalAlignment="Left" Margin="147,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="96" Height="24"/>
-        <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Height="23" Margin="255,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="154"/>
-        <Label Content="Acredita Titulo" HorizontalAlignment="Left" Margin="426,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
-        <CheckBox Content="Si" HorizontalAlignment="Left" Margin="516,321,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked"/>
-        <CheckBox Content="No" HorizontalAlignment="Left" Margin="552,321,0,0" VerticalAlignment="Top" Checked="CheckBox_Checked" RenderTransformOrigin="-0.289,-0.056"/>
+        <Label Content="Titulo " HorizontalAlignment="Left" Margin="10,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="41" Height="24"/>
+        <Label Content="Titulo que posee" HorizontalAlignment="Left" Margin="147,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="99" Height="24"/>
+        <TextBox x:Name="txtTitulo" HorizontalAlignment="Left" Height="23" Margin="251,322,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="145"/>
+        <Label Content="Acredita Titulo" HorizontalAlignment="Left" Margin="416,319,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417"/>
         <DatePicker x:Name="dtpFechaObtencionTitulo" HorizontalAlignment="Left" Margin="704,320,-4,0" VerticalAlignment="Top" Width="100" RenderTransformOrigin="0.415,0.32"/>
         <Label Content="Fecha Documento" HorizontalAlignment="Left" Margin="595,321,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" Width="117"/>
         <Label Content="Identificación del Cónyuge o conviviente civil____________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="4,357,-4,0" VerticalAlignment="Top" RenderTransformOrigin="1.111,0.417" FontFamily="Segoe UI Black" Width="800" FontSize="14"/>
@@ -94,6 +65,23 @@
         <TextBox x:Name="txtNacionalidadConyuge" HorizontalAlignment="Left" Height="23" Margin="614,420,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="135"/>
         <Button x:Name="btnImprimir" Content="Imprimir" HorizontalAlignment="Left" Margin="29,498,0,0" VerticalAlignment="Top" Width="143" Style="{DynamicResource MaterialDesignRaisedAccentButton}"/>
         <Label Content="Ubicación y Preferencia_________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________" HorizontalAlignment="Left" Margin="0,0,-6,0" VerticalAlignment="Top" RenderTransformOrigin="-0.309,-4.368" FontFamily="Segoe UI Black" FontSize="14"/>
+        <RadioButton x:Name="rbtTramo1" Content="Tramo 1, Viviendas de 1.800 U.F." HorizontalAlignment="Left" Margin="179,30,0,0" VerticalAlignment="Top" GroupName="groupTramos"/>
+        <RadioButton x:Name="rbtTramo2" Content="Tramo 2, Viviendas de 2.400 U.F." HorizontalAlignment="Left" Margin="179,52,0,0" VerticalAlignment="Top"  GroupName="groupTramos"/>
+        <RadioButton x:Name="rbtTramo3" Content="Tramo 3, Viviendas de 2.800 U.F." HorizontalAlignment="Left" Margin="179,73,0,0" VerticalAlignment="Top" GroupName="groupTramos"/>
+        <RadioButton x:Name="rbtSiCargaFamiliar" Content="Si" HorizontalAlignment="Left" Margin="129,254,0,0" VerticalAlignment="Top" GroupName="groupCargaFamiliar"/>
+        <RadioButton x:Name="rbtSiAcreditaTitulo" Content="Si" HorizontalAlignment="Left" Margin="514,325,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.036,0.467" GroupName="groupAcreditaTitulo"/>
+        <RadioButton x:Name="rbtSiAcreditaIndigena" Content="Si" HorizontalAlignment="Left" Margin="372,289,0,0" VerticalAlignment="Top" GroupName="groupAcreditaIndigena"/>
+        <RadioButton x:Name="rbtSiAcreditaCarga" Content="Si" HorizontalAlignment="Left" Margin="381,254,0,0" VerticalAlignment="Top" GroupName="groupAcreditaCarga"/>
+        <RadioButton x:Name="rbtSiIndigena" Content="Si" HorizontalAlignment="Left" Margin="144,289,0,0" VerticalAlignment="Top" GroupName="groupIndigena"/>
+        <RadioButton x:Name="rbtSiTitulo" Content="Si" HorizontalAlignment="Left" Margin="56,325,0,0" VerticalAlignment="Top" GroupName="groupTitulo"/>
+        <RadioButton x:Name="rbtNoCargaFamiliar" Content="No" HorizontalAlignment="Left" Margin="179,254,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.2,0.733" GroupName="groupCargaFamiliar"/>
+        <RadioButton x:Name="rbtNoAcreditaTitulo" Content="No" HorizontalAlignment="Left" Margin="551,325,0,0" VerticalAlignment="Top" GroupName="groupAcreditaTitulo"/>
+        <RadioButton x:Name="rbtNoAcreditaIndigena" Content="No" HorizontalAlignment="Left" Margin="416,289,0,0" VerticalAlignment="Top" GroupName="groupAcreditaIndigena"/>
+        <RadioButton x:Name="rbtNoAcreditaCarga" Content="No" HorizontalAlignment="Left" Margin="426,254,0,0" VerticalAlignment="Top" GroupName="groupAcreditaCarga"/>
+        <RadioButton x:Name="rbtNoTitulo" Content="No" HorizontalAlignment="Left" Margin="99,325,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.629,5.2" GroupName="groupTitulo"/>
+        <RadioButton x:Name="rbtNoIndigina" Content="No" HorizontalAlignment="Left" Margin="179,289,0,0" VerticalAlignment="Top" GroupName="groupIndigena"/>
+        <RadioButton  x:Name="rbtNoPermanencia" Content="No" HorizontalAlignment="Left" Margin="733,163,0,0" VerticalAlignment="Top" GroupName="groupCertificadoPermanencia"/>
+        <RadioButton x:Name="rbtSiPermanencia" Content="Si" HorizontalAlignment="Left" Margin="686,163,0,0" VerticalAlignment="Top" GroupName="groupCertificadoPermanencia"/>
 
     </Grid>
 </UserControl>

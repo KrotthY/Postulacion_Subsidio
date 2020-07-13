@@ -7,16 +7,19 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid Background="White" >
-        <StackPanel  Grid.Row="0">
+        <StackPanel  Grid.Row="0" Margin="0,0,0,-101">
             <Grid Background="#FF9B9B9B">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="10" />
                     <RowDefinition Height="100"/>
                     <RowDefinition Height="1*"/>
                 </Grid.RowDefinitions>
-                <TextBlock Text="Documentos para imprimir"  Foreground="Black" FontSize="50"  Margin="84,10,120,0" Grid.Row="1"/>
+                <TextBlock Text="Lista de Subsidios postulados"  Foreground="Black" FontSize="50"  Margin="84,10,50,0" Grid.Row="1"/>
             </Grid>
-            <DocumentViewer />
+
+
+
+            <DataGrid x:Name="dgListaSubsidios" Height="379"/>
         </StackPanel>
 
 
@@ -25,7 +28,8 @@
 
 
 
-        <Button x:Name="btnImprimir" Content="Imprimir" HorizontalAlignment="Left" Margin="610,418,0,0" VerticalAlignment="Top" Width="142"    Style="{DynamicResource MaterialDesignRaisedAccentButton}"/>
+        <Button x:Name="btnImprimir" Content="Imprimir" HorizontalAlignment="Left" Margin="631,505,0,-75" VerticalAlignment="Top" Width="142"    Style="{DynamicResource MaterialDesignRaisedAccentButton}"/>
+        <Button x:Name="btnCargar" Content="Cargar" HorizontalAlignment="Left" Margin="59,510,0,-80" VerticalAlignment="Top" Width="142"    Style="{DynamicResource MaterialDesignRaisedAccentButton}" Click="btnCargar_Click"/>
 
     </Grid>
 </UserControl>

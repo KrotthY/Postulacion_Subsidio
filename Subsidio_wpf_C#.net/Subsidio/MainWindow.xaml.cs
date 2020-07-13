@@ -15,6 +15,8 @@ namespace OnBreak_MDT_V._2
     public partial class MainWindow : Window
     {
 
+        OracleConnection oracle = new OracleConnection("DATA SOURCE= XE; PASSWORD = 123; USER ID = SUBSIDIO;");
+
         public MainWindow()
 
         {
@@ -62,7 +64,7 @@ namespace OnBreak_MDT_V._2
         private void btnInicio_Click(object sender, RoutedEventArgs e)
         {
 
-            OracleConnection oracle = new OracleConnection("DATA SOURCE= XE; PASSWORD = 123; USER ID = SUBSIDIO;");
+            
 
             oracle.Open();
             MessageBox.Show("Conectado");
