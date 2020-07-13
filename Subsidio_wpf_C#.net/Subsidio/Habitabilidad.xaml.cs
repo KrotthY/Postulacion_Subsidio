@@ -29,7 +29,7 @@ namespace OnBreak_MDT_V._2
             adapter.SelectCommand = command;
             DataTable table = new DataTable();
             adapter.Fill(table);
-            dgListaSubsidios.ItemsSource = table;
+            //dgListaSubsidios.ItemsSource = table;
 
             oracle.Close();
         }
